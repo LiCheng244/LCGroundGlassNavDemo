@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5AD6846F1E1CA3C6005BED06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD6846E1E1CA3C6005BED06 /* main.m */; };
+		5AD684721E1CA3C6005BED06 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD684711E1CA3C6005BED06 /* AppDelegate.m */; };
+		5AD684751E1CA3C6005BED06 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD684741E1CA3C6005BED06 /* ViewController.m */; };
+		5AD684781E1CA3C6005BED06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AD684761E1CA3C6005BED06 /* Main.storyboard */; };
+		5AD6847A1E1CA3C6005BED06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AD684791E1CA3C6005BED06 /* Assets.xcassets */; };
+		5AD6847D1E1CA3C6005BED06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AD6847B1E1CA3C6005BED06 /* LaunchScreen.storyboard */; };
+		5AD684881E1CA3C6005BED06 /* ________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD684871E1CA3C6005BED06 /* ________Tests.m */; };
+		5AD684931E1CA3C6005BED06 /* ________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD684921E1CA3C6005BED06 /* ________UITests.m */; };
+		5AD684A81E1CA5E0005BED06 /* BaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD684A61E1CA5E0005BED06 /* BaseCell.m */; };
+		5AD684A91E1CA5E0005BED06 /* BaseCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AD684A71E1CA5E0005BED06 /* BaseCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5AD684841E1CA3C6005BED06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AD684621E1CA3C6005BED06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AD684691E1CA3C6005BED06;
+			remoteInfo = "导航栏毛玻璃效果";
+		};
+		5AD6848F1E1CA3C6005BED06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AD684621E1CA3C6005BED06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AD684691E1CA3C6005BED06;
+			remoteInfo = "导航栏毛玻璃效果";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5AD6846A1E1CA3C6005BED06 /* 导航栏毛玻璃效果.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "导航栏毛玻璃效果.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AD6846E1E1CA3C6005BED06 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5AD684701E1CA3C6005BED06 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5AD684711E1CA3C6005BED06 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5AD684731E1CA3C6005BED06 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5AD684741E1CA3C6005BED06 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5AD684771E1CA3C6005BED06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5AD684791E1CA3C6005BED06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5AD6847C1E1CA3C6005BED06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5AD6847E1E1CA3C6005BED06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AD684831E1CA3C6005BED06 /* 导航栏毛玻璃效果Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "导航栏毛玻璃效果Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AD684871E1CA3C6005BED06 /* ________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________Tests.m"; sourceTree = "<group>"; };
+		5AD684891E1CA3C6005BED06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AD6848E1E1CA3C6005BED06 /* 导航栏毛玻璃效果UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "导航栏毛玻璃效果UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AD684921E1CA3C6005BED06 /* ________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________UITests.m"; sourceTree = "<group>"; };
+		5AD684941E1CA3C6005BED06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AD684A51E1CA5E0005BED06 /* BaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCell.h; sourceTree = "<group>"; };
+		5AD684A61E1CA5E0005BED06 /* BaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCell.m; sourceTree = "<group>"; };
+		5AD684A71E1CA5E0005BED06 /* BaseCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AD684671E1CA3C6005BED06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AD684801E1CA3C6005BED06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AD6848B1E1CA3C6005BED06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5AD684611E1CA3C6005BED06 = {
+			isa = PBXGroup;
+			children = (
+				5AD6846C1E1CA3C6005BED06 /* 导航栏毛玻璃效果 */,
+				5AD684861E1CA3C6005BED06 /* 导航栏毛玻璃效果Tests */,
+				5AD684911E1CA3C6005BED06 /* 导航栏毛玻璃效果UITests */,
+				5AD6846B1E1CA3C6005BED06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5AD6846B1E1CA3C6005BED06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AD6846A1E1CA3C6005BED06 /* 导航栏毛玻璃效果.app */,
+				5AD684831E1CA3C6005BED06 /* 导航栏毛玻璃效果Tests.xctest */,
+				5AD6848E1E1CA3C6005BED06 /* 导航栏毛玻璃效果UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AD6846C1E1CA3C6005BED06 /* 导航栏毛玻璃效果 */ = {
+			isa = PBXGroup;
+			children = (
+				5AD684701E1CA3C6005BED06 /* AppDelegate.h */,
+				5AD684711E1CA3C6005BED06 /* AppDelegate.m */,
+				5AD684731E1CA3C6005BED06 /* ViewController.h */,
+				5AD684741E1CA3C6005BED06 /* ViewController.m */,
+				5AD684A51E1CA5E0005BED06 /* BaseCell.h */,
+				5AD684A61E1CA5E0005BED06 /* BaseCell.m */,
+				5AD684A71E1CA5E0005BED06 /* BaseCell.xib */,
+				5AD684761E1CA3C6005BED06 /* Main.storyboard */,
+				5AD684791E1CA3C6005BED06 /* Assets.xcassets */,
+				5AD6847B1E1CA3C6005BED06 /* LaunchScreen.storyboard */,
+				5AD6847E1E1CA3C6005BED06 /* Info.plist */,
+				5AD6846D1E1CA3C6005BED06 /* Supporting Files */,
+			);
+			path = "导航栏毛玻璃效果";
+			sourceTree = "<group>";
+		};
+		5AD6846D1E1CA3C6005BED06 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5AD6846E1E1CA3C6005BED06 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5AD684861E1CA3C6005BED06 /* 导航栏毛玻璃效果Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5AD684871E1CA3C6005BED06 /* ________Tests.m */,
+				5AD684891E1CA3C6005BED06 /* Info.plist */,
+			);
+			path = "导航栏毛玻璃效果Tests";
+			sourceTree = "<group>";
+		};
+		5AD684911E1CA3C6005BED06 /* 导航栏毛玻璃效果UITests */ = {
+			isa = PBXGroup;
+			children = (
+				5AD684921E1CA3C6005BED06 /* ________UITests.m */,
+				5AD684941E1CA3C6005BED06 /* Info.plist */,
+			);
+			path = "导航栏毛玻璃效果UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5AD684691E1CA3C6005BED06 /* 导航栏毛玻璃效果 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AD684971E1CA3C6005BED06 /* Build configuration list for PBXNativeTarget "导航栏毛玻璃效果" */;
+			buildPhases = (
+				5AD684661E1CA3C6005BED06 /* Sources */,
+				5AD684671E1CA3C6005BED06 /* Frameworks */,
+				5AD684681E1CA3C6005BED06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "导航栏毛玻璃效果";
+			productName = "导航栏毛玻璃效果";
+			productReference = 5AD6846A1E1CA3C6005BED06 /* 导航栏毛玻璃效果.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5AD684821E1CA3C6005BED06 /* 导航栏毛玻璃效果Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AD6849A1E1CA3C6005BED06 /* Build configuration list for PBXNativeTarget "导航栏毛玻璃效果Tests" */;
+			buildPhases = (
+				5AD6847F1E1CA3C6005BED06 /* Sources */,
+				5AD684801E1CA3C6005BED06 /* Frameworks */,
+				5AD684811E1CA3C6005BED06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AD684851E1CA3C6005BED06 /* PBXTargetDependency */,
+			);
+			name = "导航栏毛玻璃效果Tests";
+			productName = "导航栏毛玻璃效果Tests";
+			productReference = 5AD684831E1CA3C6005BED06 /* 导航栏毛玻璃效果Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5AD6848D1E1CA3C6005BED06 /* 导航栏毛玻璃效果UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AD6849D1E1CA3C6005BED06 /* Build configuration list for PBXNativeTarget "导航栏毛玻璃效果UITests" */;
+			buildPhases = (
+				5AD6848A1E1CA3C6005BED06 /* Sources */,
+				5AD6848B1E1CA3C6005BED06 /* Frameworks */,
+				5AD6848C1E1CA3C6005BED06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AD684901E1CA3C6005BED06 /* PBXTargetDependency */,
+			);
+			name = "导航栏毛玻璃效果UITests";
+			productName = "导航栏毛玻璃效果UITests";
+			productReference = 5AD6848E1E1CA3C6005BED06 /* 导航栏毛玻璃效果UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5AD684621E1CA3C6005BED06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = LiCheng;
+				TargetAttributes = {
+					5AD684691E1CA3C6005BED06 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 756Z777W2K;
+						ProvisioningStyle = Automatic;
+					};
+					5AD684821E1CA3C6005BED06 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 756Z777W2K;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5AD684691E1CA3C6005BED06;
+					};
+					5AD6848D1E1CA3C6005BED06 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 756Z777W2K;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5AD684691E1CA3C6005BED06;
+					};
+				};
+			};
+			buildConfigurationList = 5AD684651E1CA3C6005BED06 /* Build configuration list for PBXProject "导航栏毛玻璃效果" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5AD684611E1CA3C6005BED06;
+			productRefGroup = 5AD6846B1E1CA3C6005BED06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AD684691E1CA3C6005BED06 /* 导航栏毛玻璃效果 */,
+				5AD684821E1CA3C6005BED06 /* 导航栏毛玻璃效果Tests */,
+				5AD6848D1E1CA3C6005BED06 /* 导航栏毛玻璃效果UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5AD684681E1CA3C6005BED06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AD684A91E1CA5E0005BED06 /* BaseCell.xib in Resources */,
+				5AD6847D1E1CA3C6005BED06 /* LaunchScreen.storyboard in Resources */,
+				5AD6847A1E1CA3C6005BED06 /* Assets.xcassets in Resources */,
+				5AD684781E1CA3C6005BED06 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AD684811E1CA3C6005BED06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AD6848C1E1CA3C6005BED06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AD684661E1CA3C6005BED06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AD684A81E1CA5E0005BED06 /* BaseCell.m in Sources */,
+				5AD684751E1CA3C6005BED06 /* ViewController.m in Sources */,
+				5AD684721E1CA3C6005BED06 /* AppDelegate.m in Sources */,
+				5AD6846F1E1CA3C6005BED06 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AD6847F1E1CA3C6005BED06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AD684881E1CA3C6005BED06 /* ________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AD6848A1E1CA3C6005BED06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AD684931E1CA3C6005BED06 /* ________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5AD684851E1CA3C6005BED06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AD684691E1CA3C6005BED06 /* 导航栏毛玻璃效果 */;
+			targetProxy = 5AD684841E1CA3C6005BED06 /* PBXContainerItemProxy */;
+		};
+		5AD684901E1CA3C6005BED06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AD684691E1CA3C6005BED06 /* 导航栏毛玻璃效果 */;
+			targetProxy = 5AD6848F1E1CA3C6005BED06 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5AD684761E1CA3C6005BED06 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AD684771E1CA3C6005BED06 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5AD6847B1E1CA3C6005BED06 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AD6847C1E1CA3C6005BED06 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5AD684951E1CA3C6005BED06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5AD684961E1CA3C6005BED06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5AD684981E1CA3C6005BED06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 756Z777W2K;
+				INFOPLIST_FILE = "导航栏毛玻璃效果/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "window.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5AD684991E1CA3C6005BED06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 756Z777W2K;
+				INFOPLIST_FILE = "导航栏毛玻璃效果/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "window.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5AD6849B1E1CA3C6005BED06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 756Z777W2K;
+				INFOPLIST_FILE = "导航栏毛玻璃效果Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "window.--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/导航栏毛玻璃效果.app/导航栏毛玻璃效果";
+			};
+			name = Debug;
+		};
+		5AD6849C1E1CA3C6005BED06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 756Z777W2K;
+				INFOPLIST_FILE = "导航栏毛玻璃效果Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "window.--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/导航栏毛玻璃效果.app/导航栏毛玻璃效果";
+			};
+			name = Release;
+		};
+		5AD6849E1E1CA3C6005BED06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 756Z777W2K;
+				INFOPLIST_FILE = "导航栏毛玻璃效果UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "window.--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "导航栏毛玻璃效果";
+			};
+			name = Debug;
+		};
+		5AD6849F1E1CA3C6005BED06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 756Z777W2K;
+				INFOPLIST_FILE = "导航栏毛玻璃效果UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "window.--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "导航栏毛玻璃效果";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5AD684651E1CA3C6005BED06 /* Build configuration list for PBXProject "导航栏毛玻璃效果" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AD684951E1CA3C6005BED06 /* Debug */,
+				5AD684961E1CA3C6005BED06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AD684971E1CA3C6005BED06 /* Build configuration list for PBXNativeTarget "导航栏毛玻璃效果" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AD684981E1CA3C6005BED06 /* Debug */,
+				5AD684991E1CA3C6005BED06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5AD6849A1E1CA3C6005BED06 /* Build configuration list for PBXNativeTarget "导航栏毛玻璃效果Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AD6849B1E1CA3C6005BED06 /* Debug */,
+				5AD6849C1E1CA3C6005BED06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5AD6849D1E1CA3C6005BED06 /* Build configuration list for PBXNativeTarget "导航栏毛玻璃效果UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AD6849E1E1CA3C6005BED06 /* Debug */,
+				5AD6849F1E1CA3C6005BED06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5AD684621E1CA3C6005BED06 /* Project object */;
+}
